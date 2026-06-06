@@ -313,23 +313,19 @@ push_subscriptions       — Web push notification subscriptions
   <tr>
     <td align="center">
       <b>Ali Hamza</b><br>
-      <sub>Lead Developer</sub><br>
-      <sub>Full-Stack + AI Integration</sub>
+      <sub>Team Lead</sub><br>
     </td>
     <td align="center">
       <b>Abdul Rehman</b><br>
-      <sub>Backend Developer</sub><br>
-      <sub>API Design + Database</sub>
+      <sub>Team Member</sub>
     </td>
     <td align="center">
       <b>M. Usman</b><br>
-      <sub>Frontend Developer</sub><br>
-      <sub>UI/UX Design</sub>
+      <sub>Team Member</sub>
     </td>
     <td align="center">
       <b>M. Saad</b><br>
-      <sub>AI Integration</sub><br>
-      <sub>ML + Data</sub>
+      <sub>Team Member</sub>
     </td>
   </tr>
 </table>
@@ -344,7 +340,7 @@ push_subscriptions       — Web push notification subscriptions
 | **Campus** | Narowal Campus |
 | **Degree** | BS Computer Science |
 | **Semester** | 4th Semester (2026) |
-| **Course** | Software Engineering / Web Development |
+| **Course** | Artificial Intelligence |
 
 ---
 
