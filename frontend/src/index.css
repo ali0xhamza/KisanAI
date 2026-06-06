@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-green-950: #0A1F10;
+  --color-green-900: #1B4D2E;
+  --color-green-800: #2D7A47;
+  --color-green-700: #4CAF72;
+  --color-green-400: #86D4A0;
+  --color-green-100: #C8EDD6;
+  --color-green-50: #EAF7EE;
+  --color-cream: #FDF9F3;
+  --color-wheat: #D4A843;
+  --shadow-card: 0 8px 32px rgba(27,77,46,0.13);
+  --shadow-soft: 0 2px 12px rgba(27,77,46,0.08);
+}
+
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: #FDF9F3;
+  color: #0F2318;
+}
+
+.btn-primary {
+  background: #1B4D2E;
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 16px;
+  transition: all 0.2s;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 2px 12px rgba(27,77,46,0.08);
+}
+
+.input {
+  width: 100%;
+  background: #EAF7EE;
+  border: 1px solid #C8EDD6;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input:focus {
+  border-color: #1B4D2E;
+}
+
+.topbar {
+  background: linear-gradient(135deg, #1B4D2E, #2D7A47);
+  color: white;
+  padding: 48px 20px 24px;
+}
+
+.page-container {
+  min-height: 100vh;
+  padding-bottom: 96px;
+}
