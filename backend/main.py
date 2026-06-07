@@ -39,6 +39,8 @@ app.add_middleware(
         "http://localhost:5173",
         "http://localhost:3000",
         "http://127.0.0.1:5173",
+        "https://kisan-ai-woad.vercel.app",
+        "https://kisan-ai-git-main-ali-hamza-s-projects2.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
