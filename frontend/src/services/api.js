@@ -1,7 +1,7 @@
 // src/services/api.js
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 // ── Axios instance ─────────────────────────────────────────────────
 const api = axios.create({
@@ -112,7 +112,6 @@ export const adminAPI = {
     const res = await api.delete(`/api/auth/admin/users/${userId}`);
     return res.data;
   },
-  // ✅ FIXED: backend endpoints for feedback
   getAllReviews: () => api.get('/api/user-feedback/').then(r => r.data),
   deleteReview:  (id) => api.delete(`/api/user-feedback/admin/${id}`).then(r => r.data),
 };
